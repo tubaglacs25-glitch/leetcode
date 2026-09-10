@@ -7,6 +7,7 @@ class Solution {
         for(int l=0;l<s.length;l++){
             s[l]=st.pop();
         }
+        //TWO POINTERS
         //int left=0;
         //int right=s.length-1;
         //while(left<right){
