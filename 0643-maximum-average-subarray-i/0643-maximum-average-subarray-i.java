@@ -6,7 +6,7 @@ class Solution {
         }
         int maxsum=sum;
         for(int i=k;i<nums.length;i++){
-            sum=sum+nums[i]-nums[i-k];
+            sum=sum+nums[i]-nums[i-k];//current+incoming-outgoing
             if(sum>maxsum){
                 maxsum=sum;
             }
