@@ -23,6 +23,6 @@ class Solution {
                   end--;
            }
         }
-        return String.valueOf(ch);
+        return new String(ch);
     }
 }
